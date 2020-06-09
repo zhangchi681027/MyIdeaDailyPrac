@@ -10,5 +10,6 @@ public interface UserService {
     User findById(Long id);
     void deleteByEmail(String email);
     void update(User user);
-
+    User findByEmailActive(String email);
+    User findById(String id);
 }
